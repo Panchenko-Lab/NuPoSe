@@ -68,12 +68,10 @@ for epoch in range(ne):
         model.save_weights("MyMDl")
         plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
         json_file.close()
-    else:
+    if es>5:
         k=np.random.randint(len(OPT))
         model.compile(loss='binary_crossentropy',optimizer=OPT[k],metrics=['accuracy'])
         model.set_weights(M1)
-    if es>5:
-        break
 PRE=model.predict(TEDT)
 model_json = model.to_json()
 with open("model.json", "w") as json_file:
