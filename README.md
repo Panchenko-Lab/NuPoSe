@@ -31,3 +31,9 @@ In the final step (Figure 1d), each of the subsets of features generated in the 
   <b>python3 Res.py</b><br><br>
   Here <i>Res.py</i> is a python-format file available in the current repository.
 </p>
+
+<p align='justify'>
+We have also included a standalone version of the nucleosome positioning classification model (<b>NuPoSe</b>) in this repository. To use NuPoSe, please download the <i>NuPoSe.zip</i> file to one of your computer directories. After extracting the contents, run the following command: <br><br>
+<b>python3 NuPoSe.py</b><br><br>
+Please note that you should save your dataset as <i>DS.txt</i>, where each row of this plain text file represents a 201-base sequence. Running the above command will generate a text file named <i>SC</i>, with the number of rows equal to the number of sequences in the input file. In other words, the <i>SC</i> file will contain the prediction scores for each sequence in the input file. Additionally, you will need <b>numpy</b> and <b>Keras 2.7.0</b> libraries to run <b>NuPoSe</b>.
+</p>
