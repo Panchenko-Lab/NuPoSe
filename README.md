@@ -37,3 +37,7 @@ We have also included a standalone version of the nucleosome positioning classif
 <b>python3 NuPoSe.py YourInpute.txt YourOutput.txt</b><br><br>
 Please note that each row of the <i>DS.txt</i> file must be a 201-base nucleotide sequence. Running the above command will generate a text file named <i>YourOutput.txt</i>, with the number of rows equal to the number of sequences in the input file. In other words, the <i>SC</i> file will contain the prediction scores for each sequence in the input file. Having said that, you will need <b>python 3.7.7</b>, <b>tensorflow 2.7.0</b>, and <b>Keras 2.7.0</b> libraries to run <b>NuPoSe</b>.
 </p>
+
+<p align='justify'>
+Here is a video that demonstrates how a user can run the NuPoSe model.
+</p>
