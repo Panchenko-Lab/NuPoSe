@@ -41,5 +41,5 @@ Please note that each row of the <i>DS.txt</i> file must be a 201-base nucleotid
 <p align='justify'>
 Here is a video that demonstrates how a user can run the NuPoSe model.<br>
 
-  <video src="https://github.com/user-attachments/assets/51347c67-5bf1-4f44-80a9-859754fa1e2f"></video>
+  <video src="https://github.com/user-attachments/assets/8eaf6693-9d38-407a-b45b-ef4d43b5779e"></video>
 </p>
