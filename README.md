@@ -43,8 +43,8 @@ Here is a video that demonstrates how a user can run the NuPoSe model.<br>
 
   <video src="https://github.com/user-attachments/assets/8eaf6693-9d38-407a-b45b-ef4d43b5779e"></video>
 </p>
-
+<br><br>
 <p align='justify'>
-This GitHub repository also includes the NuPoSe* model (NuPoSeStar.zip). To run this model, follow the same steps described for NuPoSe and then execute the following command:<br>
+This GitHub repository also includes the NuPoSe* model (NuPoSeStar.zip). To run this model, follow the same steps described for NuPoSe and then execute the following command:<br><br>
 <b>python3 NuPoSeStar.py YourInpute.txt YourOutput.txt</b>
 </p>
