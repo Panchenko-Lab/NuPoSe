@@ -36,10 +36,10 @@ for i in range(0,len(TE)):
     k=TEL[i].replace('\n','')
     TEDL.append(int(round(float(k))))
 inp=keras.layers.Input(shape=(len(TRDT[0]),))
-H1=keras.layers.Dense(len(TRDT[0]),activation='sigmoid')(inp)
+H2=keras.layers.Dense(len(TRDT[0]),activation='sigmoid')(inp)
 keras.layers.Add()([inp,H1]) 
 for i in range(1,50):
-    H2=keras.layers.Dense(len(TRDT[0]),activation='sigmoid')(H)
+    H2=keras.layers.Dense(len(TRDT[0]),activation='sigmoid')(H2)
     if i%5==0:
         H3=keras.layers.Add()([inp,H2])
 Out=keras.layers.Dense(1,activation='sigmoid')(H3)
