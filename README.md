@@ -1,4 +1,4 @@
-# NuPoSe: Classifyin nucleosomal and non-nucleosomal DNA and identifying the related features
+# NuPoSe: Classifying nucleosomal and non-nucleosomal DNA and identifying the related features
 
 <p align='justify'> 
 NuPoSe is a deep-learning framework that predicts nucleosome positioning and identifies related features. Figure 1 illustrates NuPoSe's framework, which comprises four main steps.
